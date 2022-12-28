@@ -69,7 +69,7 @@ export const getById = async (req , res , next ) => {
 }
 
 export  const deleteBook =async (req , res ,next  ) => {
-    const id = req.perams.id;
+    const id = req.params.id;
 
     let book ;
     try {
