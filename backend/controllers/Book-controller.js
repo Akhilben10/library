@@ -72,7 +72,7 @@ export  const deleteBook =async (req , res ,next  ) => {
     const id = req.params.id;
 
     let book ;
-    try {
+    try {          
         book = await Book.findByIdAndRemove(id)
     } catch (err) {
     console.log(err);
