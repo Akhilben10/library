@@ -9,7 +9,7 @@ function App() {
     </div> 
   );
 }
-export default App;
+export default  App;
 
 // import React, { Suspense } from 'react';
 // import { Container } from '@mui/material';
